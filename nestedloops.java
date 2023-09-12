@@ -1,43 +1,62 @@
 //Star pattern
-// public class nestedloops {
-//     public static void main(String args[]){
-//     for(int line =1 ; line <= 4; line++){
-//         for(int star = 1; star <= line; star++){
-//             System.out.print("*");
-//         }
-//         System.out.println();
-//     }
-// }
-// }
+public class nestedloops {
+    public static void main(String args[]){
+    for(int line =1 ; line <= 4; line++){
+        for(int star = 1; star <= line; star++){
+            System.out.print("*");
+        }
+        System.out.println();
+    }
+}
+}
+// *
+// **
+// ***
+// ****
+
+
+
 
 
 // Inverted star pattern   stars = n - i + 1 (lines - line number + 1)
-// public class nestedloops {
-//     public static void main(String args[]){
-//         int n = 4;
-//     for(int line =1 ; line <= n; line++){
-//         for(int star = 1; star <=n - line + 1 ; star++){
-//             System.out.print("*");
-//         }
-//         System.out.println();
-//     }
-// }
-// }
-
+public class nestedloops {
+    public static void main(String args[]){
+        int n = 4;
+    for(int line =1 ; line <= n; line++){
+        for(int star = 1; star <=n - line + 1 ; star++){
+            System.out.print("*");
+        }
+        System.out.println();
+    }
+}
+}
+// ****
+// ***
+// **
+// *
 
 
 //Half Pyramid pattern
-// public class nestedloops{
-//     public static void main(String args[]){
-//         int n = 9;
-//         for(int line = 1;line <= n; line++){
-//             for(int number = 1;number<=line;number++){
-//                 System.out.print(number);
-//             }
-//             System.out.println();
-//         }
-//     }
-// }
+public class nestedloops{
+    public static void main(String args[]){
+        int n = 9;
+        for(int line = 1;line <= n; line++){
+            for(int number = 1;number<=line;number++){
+                System.out.print(number);
+            }
+            System.out.println();
+        }
+    }
+}
+// 1
+// 12
+// 123
+// 1234
+// 12345
+// 123456
+// 1234567
+// 12345678
+// 123456789
 
 
 
@@ -56,3 +75,8 @@ public class nestedloops{
         }
     }
 }
+// A
+// BC
+// DEF
+// GHIJ
+// KLMNO
